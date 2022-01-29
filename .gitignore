@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+node_modules
+build
+.svelte-kit
+package
+.cache
+.env
+.env.*
+!.env.example
+.idea
+.vscode
+.history
