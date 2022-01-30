@@ -2,7 +2,9 @@
 # Svelte kit Theme Example
 
 Example implementation of two color scheme.
-- Based on the system theme
+
+- Based on CSS custom properties (variables)
+- Use system theme by default
 - Browser tab color
 - User select
 - Store user theme
