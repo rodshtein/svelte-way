@@ -1,5 +1,5 @@
 `🇺🇸 English` [`🇷🇺 Русский`](README-RU.md)
-# Svelte kit Theme Example
+# Svelte kit Dark theme
 
 Example implementation of two color scheme.
 
