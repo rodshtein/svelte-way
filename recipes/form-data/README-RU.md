@@ -3,8 +3,8 @@
 # Svelte Kit - Отправка данных с формы
 Пример отправки формы с бинарными данными на эндпоинт и их обработки. 
 Все пояснения в файлах (на английском):
-- Форма [`index.svelte`](src/index.svelte) 
-- Эндпоинт [`index.js`](src/index.js) 
+- Форма [`index.svelte`](src/routes/index.svelte) 
+- Эндпоинт [`index.js`](src/routes/index.js) 
 
 <br>
 
