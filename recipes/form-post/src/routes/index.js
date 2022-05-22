@@ -5,8 +5,8 @@ import fs from 'node:fs';
 
 export async function post({ request }) {
   const data = await request.formData();
-  let file = data.get('file'); // file_name → field name in <form>
-  let name = data.get('name'); // file → field name in <form>
+  let file = data.get('file'); // file → field name in <form>
+  let name = data.get('name'); // name → field name in <form>
 
   // check that we received all data
   // if some data is empty - send error
