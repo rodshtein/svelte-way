@@ -3,8 +3,8 @@
 # Svelte Kit - Send form data
 Example of send form with binary data to endpoint and processing it. 
 Every comments in files. 
-- Form [`index.svelte`](src/index.svelte) 
-- Endpoint [`index.js`](src/index.js) 
+- Form [`index.svelte`](src/routes/index.svelte) 
+- Endpoint [`index.js`](src/routes/index.js) 
 
 <br>
 
