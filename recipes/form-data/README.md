@@ -1,8 +1,8 @@
 `🇺🇸 English` [`🇷🇺 Русский`](README-RU.md)
 
-# Svelte Kit - Send form data
-Example of send form with binary data to endpoint and processing it. 
-Every comments in files. 
+# Svelte Kit - send form data
+Example of send form with binary data to endpoint and processing it.<br>
+All explanations are in the files below: 
 - Form [`index.svelte`](src/routes/index.svelte) 
 - Endpoint [`index.js`](src/routes/index.js) 
 
