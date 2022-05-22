@@ -2,12 +2,12 @@
 # svelte-way
 *Сборник лучших практик Svelte*
 
-- [**Svelte Kit Theme Example**](/recipes/dark-theme/README-RU.md)  
+- [**Svelte Kit — Тёмная тема**](/recipes/dark-theme/README-RU.md)<br>
 Лучший способ сделать тёмную тему на Ките без вспышек и других багов.
 
-- [**Svelte Kit Form-POST-DATA**](/recipes/form-post)  
-Пример формы Example form with data field and endpoint to process form request.
+- [**Svelte Kit — отправка данных с формы**](/recipes/form-data//README-RU.md)<br>
+Пример отправки формы с бинарными данными на эндпоинт и их обработки.
 
-- [**Гайд по Конфигу Препроцессора**](/recipes/preprocess-config/README-RU.md)  
+- [**Гайд по конфигу Препроцессора**](/recipes/preprocess-config/README-RU.md)<br>
 Настройка Препроцессора может запутать. Используя этот паттерн вы сводите вероятность ошибки к минимуму.
 
