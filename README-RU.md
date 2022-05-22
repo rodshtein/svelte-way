@@ -1,4 +1,4 @@
-[`English`](README-RU.md) `Русский`
+[`English`](README.md) `Русский`
 
 # svelte-way
 *Сборник лучших практик Svelte*
