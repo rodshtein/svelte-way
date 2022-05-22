@@ -1,6 +1,6 @@
 `🇺🇸 English` [`🇷🇺 Русский`](README-RU.md)
 
-# Svelte Kit - Send from data
+# Svelte Kit - Send form data
 Example of send form with binary data to endpoint and processing it. 
 Every comments in files. 
 - Form [`index.svelte`]('src/index.svelte') 
