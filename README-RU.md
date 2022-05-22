@@ -2,7 +2,7 @@
 # svelte-way
 *Сборник лучших практик Svelte*
 
-- [**Svelte Kit Theme Example**](/recipes/dark-theme/README-RU.md)
+- [**Svelte Kit Theme Example**](/recipes/dark-theme/README-RU.md)  
 Лучший способ сделать тёмную тему на Ките без вспышек и других багов.
 
 - [**Svelte Kit Form-POST-DATA**](/recipes/form-post/README-RU.md)  
