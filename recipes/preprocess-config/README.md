@@ -1,4 +1,4 @@
-`English` [`Русский`](README-RU.md)
+`🇺🇸 English` [`🇷🇺 Русский`](README-RU.md)
 
 # Svelte preprocess config
 

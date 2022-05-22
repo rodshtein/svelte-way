@@ -1,4 +1,4 @@
-`English` [`Русский`](README-RU.md)
+`🇺🇸 English` [`🇷🇺 Русский`](README-RU.md)
 # svelte-way
 *Svelte best practices hand book*
 

@@ -1,4 +1,4 @@
-`English` [`Русский`](README-RU.md)
+`🇺🇸 English` [`🇷🇺 Русский`](README-RU.md)
 # Svelte kit Theme Example
 
 Example implementation of two color scheme.
@@ -17,12 +17,15 @@ The scheme colors are defined through css variables in [static/styles/light.css]
 
 All executable code in [index.svelte](src/routes/index.svelte)
 
-## Run this 
+<br>
+
+## Run this code
 For test the example run this command from top level folder (svelte-way):
 ```bash
 npm i
 npm run dark-theme
 ```
+<br>
 
 ## How does switching work?
 By default, both themes are connected. The browser chooses which one to use by looking at the `media` rule `prefers-color-scheme`.
