@@ -1,7 +1,7 @@
 <script>
 	async function submit() {
     let data = new FormData(this); // `this` - it's form body 
-		let response = await fetch('/', { 
+    let response = await fetch('/', { 
       method: 'POST',  
       headers: { 'accept': 'application/json'},  
       // ↑ we need the `Header` to receive endpoint response instead html page
