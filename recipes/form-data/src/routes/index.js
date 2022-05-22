@@ -1,5 +1,5 @@
 import fs from 'node:fs'; 
-// read more about esm modules in node 18.2
+// read more about esm modules in nodejs
 // https://nodejs.org/api/esm.html
 
 
@@ -11,19 +11,25 @@ export async function post({ request }) {
   // check that we received all data
   // if some data is empty - send error
   if(!name) return {
-    body: { status:  'Please introduce yourself.'} 
+    body: 'Please introduce yourself.'
   };
   if(!file) return {
-    body: { status: `${name}, attach file and try again` }  
+    body: `${name}, attach file and try again`  
   };
+  
+  // if all ok - get the binary data from file
+  let ab = await file.arrayBuffer(); 
 
-  let ab = await file.arrayBuffer(); // get binary data from file
-
+  // save to folder
   fs.writeFile(`./test-folder/${file.name}`, Buffer.from(ab), e => {
-    if(e) console.error(e) 
+    // Process errors
+    if(e) return {
+      body: `Error by save the file: ${e}`
+    };
   })
 
+  // if all ok response something
   return {
-    body: { status: `${name}, file: ${file.name} - has been uploaded` } // if all ok response something
+    body: `${name}, file: ${file.name} - has been saved`
   };
 }

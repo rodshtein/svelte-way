@@ -7,7 +7,7 @@
       // ↑ we need the `Header` to receive endpoint response instead html page
       body: data 
     });
-    alert((await response.json()).status) // get response
+    alert(await response.text()) // get response
 	}
 </script>
 

@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 
-const dir = process.env.APP_DIR;
+const dir = process.env.npm_lifecycle_event;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

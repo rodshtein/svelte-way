@@ -1,9 +1,9 @@
 {
-  "name": "dark-theme",
+  "name": "svelte-way",
   "version": "0.0.1",
   "scripts": {
-    "dark-theme": "APP_DIR=dark-theme svelte-kit dev --host",
-    "form-post": "APP_DIR=form-post svelte-kit dev --host"
+    "dark-theme": "svelte-kit dev --host",
+    "form-data": "svelte-kit dev --host"
   },
   "type": "module",
   "devDependencies": {
