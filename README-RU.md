@@ -5,7 +5,7 @@
 - [**Svelte Kit — Тёмная тема**](/recipes/dark-theme/README-RU.md)<br>
 Лучший способ сделать тёмную тему на Ките без вспышек и других багов.
 
-- [**Svelte Kit — отправка данных с формы**](/recipes/form-data//README-RU.md)<br>
+- [**Svelte Kit — Отправка данных с формы**](/recipes/form-data//README-RU.md)<br>
 Пример отправки формы с бинарными данными на эндпоинт и их обработки.
 
 - [**Гайд по конфигу Препроцессора**](/recipes/preprocess-config/README-RU.md)<br>
